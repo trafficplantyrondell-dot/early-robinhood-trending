@@ -17,6 +17,7 @@
   "author": "Hood Rich Labs",
   "license": "MIT",
   "dependencies": {
+    "@supabase/supabase-js": "^2.110.6",
     "dotenv": "^16.4.5",
     "ethers": "^6.13.0",
     "node-telegram-bot-api": "^0.66.0"
