@@ -1,25 +1,27 @@
 {
   "name": "early-robinhood-trending",
   "version": "1.0.0",
-  "description": "AI-powered Robinhood Chain discovery platform by Hood Rich Labs",
-  "main": "bot/index.js",
+  "description": "Hood Rich Labs AI Scanner for Robinhood Chain",
   "type": "module",
+  "main": "bot/index.js",
   "scripts": {
     "start": "node bot/index.js",
     "dev": "node --watch bot/index.js"
   },
   "keywords": [
-    "telegram",
     "robinhood-chain",
+    "telegram-bot",
     "crypto",
+    "scanner",
     "hood-rich-labs"
   ],
   "author": "Hood Rich Labs",
   "license": "MIT",
   "dependencies": {
-    "@supabase/supabase-js": "^2.110.6",
-    "dotenv": "^16.4.5",
-    "ethers": "^6.17.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@supabase/supabase-js": "^2.57.4",
+    "dotenv": "^17.2.2",
+    "ethers": "^6.15.0",
     "node-telegram-bot-api": "^0.66.0"
   }
 }
